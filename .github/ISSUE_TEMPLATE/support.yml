@@ -1,0 +1,46 @@
+name: Support
+description: Ask a question or get help with setup, your server, or using the app
+title: "[Support] "
+labels: ["support", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post passwords, access tokens, or private server addresses.
+        For purchases, open Settings > BookOrbit Premium and select Restore Purchases first. Apple handles billing and refunds.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      description: Include any error message exactly as the app shows it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you already tried?
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      placeholder: "1.1.0 (42)"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      placeholder: "iPhone 16 Pro, iOS 26.0"
+    validations:
+      required: true
+
+  - type: input
+    id: server-version
+    attributes:
+      label: BookOrbit server version
+      description: If you run the server, the release or Docker image tag you use. Leave blank otherwise.
+      placeholder: "2.4.0"

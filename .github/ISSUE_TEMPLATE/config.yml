@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Premium purchases and billing
+    url: https://apps.apple.com/account/subscriptions
+    about: Apple handles billing, cancellations, and refunds. Manage subscriptions in your Apple Account.
+  - name: BookOrbit server issues
+    url: https://github.com/bookorbit/bookorbit/issues/new/choose
+    about: Problems with the BookOrbit server itself, rather than the iOS app, belong in the server repository.

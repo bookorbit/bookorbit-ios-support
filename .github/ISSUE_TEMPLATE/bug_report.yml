@@ -1,0 +1,81 @@
+name: Bug Report
+description: Report a problem in the BookOrbit iOS app
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post passwords, access tokens, or private server addresses.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What went wrong?
+      description: A clear description of the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See the problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual behavior
+      description: What did you expect to happen, and what actually happened?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does it happen?
+      options:
+        - Reader (EPUB, PDF, comics)
+        - Audiobooks
+        - Read aloud
+        - CarPlay
+        - Apple Watch
+        - Connecting or signing in
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Shown in Settings in the app.
+      placeholder: "1.1.0 (42)"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      placeholder: "iPhone 16 Pro, iOS 26.0"
+    validations:
+      required: true
+
+  - type: input
+    id: server-version
+    attributes:
+      label: BookOrbit server version
+      description: If you run the server, the release or Docker image tag you use. Leave blank otherwise.
+      placeholder: "2.4.0"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recordings (optional)
+      description: Drag and drop here. Remove anything private first.
