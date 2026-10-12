@@ -17,7 +17,7 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 
 ## 1.5.0
 
-Planned for the next App Store release. The build number and release date have not been assigned.
+Planned for the next App Store release. Build 25 is on TestFlight (`testflight/1.5.0-25`); the App Store build and release date have not been assigned.
 
 ### New
 
@@ -28,12 +28,18 @@ Planned for the next App Store release. The build number and release date have n
 - Request an ebook and its audiobook together.
 - A single reader footer player while narration runs.
 - Book covers keep their original shape.
+- Filter Library and Search by book language when the server provides language options.
+- Identify saved metadata provider results and request a fresh search on supported servers.
+- Include comic formats in ebook request preferences.
 
 ### Fixes
 
 - Read Along resumes correctly after pausing on iPhone.
 - Continue Reading includes books with reading progress even without a saved reading status.
 - Metadata refresh applies ISBN changes and reminder preferences stay in sync.
+- Reader pages and book panels keep their layout when returning from the background on iPad.
+- Watch audiobook playback progress syncs back to the phone and server.
+- Open EPUBs with a malformed package namespace.
 
 ### Support issues
 
@@ -41,6 +47,9 @@ Planned for the next App Store release. The build number and release date have n
 - [#40](https://github.com/bookorbit/bookorbit-ios-support/issues/40): Full metadata editing.
 - [#44](https://github.com/bookorbit/bookorbit-ios-support/issues/44): Read Along mini-player.
 - [#49](https://github.com/bookorbit/bookorbit-ios-support/issues/49): Keep the screen awake.
+- [#50](https://github.com/bookorbit/bookorbit-ios-support/issues/50): Reader layout after reopening the app.
+- [#54](https://github.com/bookorbit/bookorbit-ios-support/issues/54): Filter by language.
+
 
 ## 1.4.0
 
