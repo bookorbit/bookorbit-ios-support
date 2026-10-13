@@ -2,13 +2,13 @@
 
 Report bugs, request features, and follow BookOrbit releases in the [issue tracker](https://github.com/bookorbit/bookorbit-ios-support/issues).
 
-## Next release
+## Current release
 
-[BookOrbit 1.5.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/1) is the next planned App Store release. Its build number and release date have not been assigned.
+[BookOrbit 1.5.0 (27)](https://github.com/bookorbit/bookorbit-ios-support/milestone/1) is available on the App Store as of October 13, 2026.
 
-Completed changes include the keep-screen-awake setting, full metadata editing, Read Along in the mini-player, and the Read Along pause/resume fix. These issues stay open until the App Store build is available.
+This release restores Orbit Voices playback and adds language filters, full metadata editing, Read Along in the mini-player, and the keep-screen-awake setting. It also fixes Read Along pause/resume, iPad reader layout, and Watch playback progress sync. Language filters require BookOrbit server 3.4.0 or later.
 
-See [planned notes and release history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all).
+See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version has not been scheduled.
 
 ## Status labels
 

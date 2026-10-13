@@ -1,12 +1,12 @@
 # BookOrbit iOS release history
 
-The current App Store version is **1.4.0 (23)**. The next planned release is **1.5.0**.
+The current App Store version is **1.5.0 (27)**, released on October 13, 2026. The next version has not been scheduled.
 
 Historical notes were backfilled on October 9, 2026 from the original App Store listings. Original release dates are not recorded here because they could not be verified. GitHub backfill timestamps do not represent the original App Store release dates.
 
 | Version | Build | Status | Milestone |
 | --- | --- | --- | --- |
-| 1.5.0 | Not assigned | Planned | [1.5.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/1) |
+| 1.5.0 | 27 | Released | [1.5.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/1) |
 | 1.4.0 | 23 | Released | [1.4.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/8) |
 | 1.3.0 | 20 | Released | [1.3.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/7) |
 | 1.2.0 | 18 | Released | [1.2.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/6) |
@@ -17,29 +17,34 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 
 ## 1.5.0
 
-Planned for the next App Store release. Build 25 is on TestFlight (`testflight/1.5.0-25`); the App Store build and release date have not been assigned.
+Released on the App Store on October 13, 2026 as **1.5.0 (27)**.
 
 ### New
 
-- Keep the screen awake while reading ebooks, with an optional reader setting.
-- Continue Read Along in the mini-player while browsing the app.
-- Edit full book metadata, including ISBN, and choose values from metadata providers.
-- Follow the narrated text in the audiobook player.
+- Rebuilt Home Screen widgets for every iPhone and iPad size, plus Control Center controls.
+- Edit every book field, including ISBN, and match values from metadata providers.
+- Follow the narration as text in the audiobook player.
+- Read Along can keep playing in the mini-player while browsing the app.
+- One player replaces the reader footer while narration runs.
 - Request an ebook and its audiobook together.
-- A single reader footer player while narration runs.
+- Filter Library and Search by book language.
+- Keep the screen awake while reading ebooks.
 - Book covers keep their original shape.
-- Filter Library and Search by book language when the server provides language options.
-- Identify saved metadata provider results and request a fresh search on supported servers.
-- Include comic formats in ebook request preferences.
+- Saved metadata search results are marked, with an option to search again.
+- Comics can be included in ebook request preferences.
 
 ### Fixes
 
-- Read Along resumes correctly after pausing on iPhone.
-- Continue Reading includes books with reading progress even without a saved reading status.
-- Metadata refresh applies ISBN changes and reminder preferences stay in sync.
-- Reader pages and book panels keep their layout when returning from the background on iPad.
-- Watch audiobook playback progress syncs back to the phone and server.
-- Open EPUBs with a malformed package namespace.
+- Orbit Voices text to speech works again.
+- Read Along resumes correctly after a pause.
+- Watch audiobook progress syncs back to the phone and server.
+- Reader pages and the book panel keep their layout when returning to the app on iPad.
+- Continue Reading includes books with progress but no reading status.
+- Refreshed ISBNs are applied and reminder preferences stay in sync.
+- EPUBs with a malformed package now open.
+- The book page stays smooth while downloads run.
+
+Language filters require BookOrbit server 3.4.0 or later. Saved metadata search indicators and fresh searches appear on servers that support metadata search caching.
 
 ### Support issues
 
@@ -49,7 +54,11 @@ Planned for the next App Store release. Build 25 is on TestFlight (`testflight/1
 - [#49](https://github.com/bookorbit/bookorbit-ios-support/issues/49): Keep the screen awake.
 - [#50](https://github.com/bookorbit/bookorbit-ios-support/issues/50): Reader layout after reopening the app.
 - [#54](https://github.com/bookorbit/bookorbit-ios-support/issues/54): Filter by language.
+- [#55](https://github.com/bookorbit/bookorbit-ios-support/issues/55): Orbit Voices playback.
+- [#56](https://github.com/bookorbit/bookorbit-ios-support/issues/56): Orbit Voices playback.
+- [#58](https://github.com/bookorbit/bookorbit-ios-support/issues/58): Orbit Voices playback.
 
+Main tracker: [#1712](https://github.com/bookorbit/bookorbit/issues/1712), [#1582](https://github.com/bookorbit/bookorbit/issues/1582).
 
 ## 1.4.0
 
