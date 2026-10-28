@@ -1,11 +1,13 @@
 # BookOrbit iOS release history
 
-The current App Store version is **1.5.0 (27)**, released on October 13, 2026. The next version has not been scheduled.
+The current App Store version is **1.7.0 (29)**, released on October 27, 2026. The next version has not been scheduled.
 
 Historical notes were backfilled on October 9, 2026 from the original App Store listings. Original release dates are not recorded here because they could not be verified. GitHub backfill timestamps do not represent the original App Store release dates.
 
 | Version | Build | Status | Milestone |
 | --- | --- | --- | --- |
+| 1.7.0 | 29 | Released | [1.7.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/10) |
+| 1.6.0 | 28 | Released | [1.6.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/9) |
 | 1.5.0 | 27 | Released | [1.5.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/1) |
 | 1.4.0 | 23 | Released | [1.4.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/8) |
 | 1.3.0 | 20 | Released | [1.3.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/7) |
@@ -14,6 +16,93 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 | 1.0.2 | 14 | Released | [1.0.2](https://github.com/bookorbit/bookorbit-ios-support/milestone/4) |
 | 1.0.1 | 13 | Released | [1.0.1](https://github.com/bookorbit/bookorbit-ios-support/milestone/3) |
 | 1.0 | 9 | Released | [1.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/2) |
+
+## 1.7.0
+
+Released on the App Store on October 27, 2026 as **1.7.0 (29)**.
+
+### New
+
+- Ebook pages can turn like paper: choose Curl under Page turns. It follows the reading direction and turns two-page spreads like a book.
+- Reading History lists every finished read, rereads included, with ratings, notes, sharing and export.
+- Achievements are rebuilt as medals, opening on the latest unlocks with hints for what is closest.
+- The book page gives the Timeline its own row and shows the rating as a number.
+- Filter the Library by read-along books.
+- Smart scope date filters can use rolling "older than" dates.
+- Book Request releases link to their source page and can be held for review before filing.
+- Metadata searches return more provider results.
+- The app adapts its navigation, readers and controls to the open iPhone Duo display.
+
+### Fixes
+
+- Continue Listening, Home, widgets and the library quick action resume a book as an audiobook or Read Along, the way it was last played.
+- Sleep Timer options are readable in dark mode and open beside the moon button.
+- Orbit Voices retries a dropped or refused connection and says what still fails.
+- Downloaded audiobooks keep their chapter lists while offline.
+- Read Along books restore the bookmark button and mark the sentence being spoken.
+- A reading position saved offline no longer replaces a newer one from another device.
+- Requests made from a book's page show the book's cover.
+
+BookOrbit server 3.6.0 or later enables the complete Reading History, read-aloud filtering,
+rolling date filters and grouped progress experience.
+
+### Support issues
+
+- [#66](https://github.com/bookorbit/bookorbit-ios-support/issues/66): Page curl turn animation.
+- [#71](https://github.com/bookorbit/bookorbit-ios-support/issues/71): Resume the audiobook or Read Along that was last played.
+- [#72](https://github.com/bookorbit/bookorbit-ios-support/issues/72): Orbit Voices stopping mid-playback.
+- [#73](https://github.com/bookorbit/bookorbit-ios-support/issues/73): Sleep Timer readability in dark mode.
+- [#74](https://github.com/bookorbit/bookorbit-ios-support/issues/74): iPhone Duo support.
+- [#75](https://github.com/bookorbit/bookorbit-ios-support/issues/75): Offline audiobook chapters.
+- [#77](https://github.com/bookorbit/bookorbit-ios-support/issues/77): Read Along bookmark button.
+
+Main tracker: [#1647](https://github.com/bookorbit/bookorbit/issues/1647), [#1630](https://github.com/bookorbit/bookorbit/issues/1630), [#1583](https://github.com/bookorbit/bookorbit/issues/1583), [#1751](https://github.com/bookorbit/bookorbit/issues/1751), [#1438](https://github.com/bookorbit/bookorbit/issues/1438).
+
+## 1.6.0
+
+Released on the App Store on October 20, 2026 as **1.6.0 (28)**.
+
+### New
+
+- Connect through Cloudflare Access, Pangolin, and custom-header access gates.
+- Add multiple verified addresses for one server, so BookOrbit can connect at home or away.
+- Update outdated downloaded books in place without removing and downloading them again.
+- Choose squiggly highlights and see each highlight style in the picker.
+- Audiobook chapter lists now open at the chapter currently playing.
+- Siri can resume the audiobook last played, whether streamed or downloaded.
+- Read Along starts faster by streaming narration instead of downloading every audio file first.
+- Each narration engine now has its own named playback speeds.
+- AZW3 books now show their chapters in Contents.
+- Read Along titles display their book and audiobook covers together.
+- Read Along books now appear as audiobooks in CarPlay.
+- When another device moves an audiobook, BookOrbit can ask before following the newer position.
+
+### Fixes
+
+- Vertical-writing EPUBs and mixed reading directions now turn pages correctly.
+- Briefly locking the screen or switching apps no longer splits one reading session into many.
+- Paused Read Along books recover correctly after a long time in the background.
+- Adjusting a text selection keeps the highlight menu available.
+- Highlights changed on another device refresh correctly, including highlights shared between editions.
+- Scrolled reading keeps the selected text size and no longer treats a short flick as a page turn.
+- Large tables of contents open without freezing.
+- PDF and comic scrolling, fitting, progress tracking, and interrupted downloads are more reliable.
+- Audiobook positions and bookmarks sync more safely across devices.
+- Book Requests and uploads remain current and recover more reliably from interruptions.
+- Widgets, Activity, Home, offline search, Apple Watch, and CarPlay receive additional reliability improvements.
+
+Read Along narration started on another device appears in CarPlay's Continue list with BookOrbit server 3.5.0 or later.
+
+### Support issues
+
+- [#21](https://github.com/bookorbit/bookorbit-ios-support/issues/21): Cloudflare Access and custom-header access gates.
+- [#60](https://github.com/bookorbit/bookorbit-ios-support/issues/60): Chapter list opens at the playing chapter.
+- [#61](https://github.com/bookorbit/bookorbit-ios-support/issues/61): Highlight menu after adjusting a selection.
+- [#63](https://github.com/bookorbit/bookorbit-ios-support/issues/63): Vertical-writing EPUB page turns.
+- [#67](https://github.com/bookorbit/bookorbit-ios-support/issues/67): Read Along after a long time in the background.
+- [#68](https://github.com/bookorbit/bookorbit-ios-support/issues/68): Reading sessions split by screen lock.
+
+Main tracker: [#1847](https://github.com/bookorbit/bookorbit/issues/1847), [#1840](https://github.com/bookorbit/bookorbit/issues/1840), [#1775](https://github.com/bookorbit/bookorbit/issues/1775), [#1687](https://github.com/bookorbit/bookorbit/issues/1687), [#1571](https://github.com/bookorbit/bookorbit/issues/1571).
 
 ## 1.5.0
 
