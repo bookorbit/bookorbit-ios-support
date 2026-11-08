@@ -1,11 +1,12 @@
 # BookOrbit iOS release history
 
-The current App Store version is **1.7.0 (29)**, released on October 27, 2026. The next version has not been scheduled.
+The current App Store version is **1.8.0 (30)**, released on November 7, 2026. The next version has not been scheduled.
 
 Historical notes were backfilled on October 9, 2026 from the original App Store listings. Original release dates are not recorded here because they could not be verified. GitHub backfill timestamps do not represent the original App Store release dates.
 
 | Version | Build | Status | Milestone |
 | --- | --- | --- | --- |
+| 1.8.0 | 30 | Released | [1.8.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/11) |
 | 1.7.0 | 29 | Released | [1.7.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/10) |
 | 1.6.0 | 28 | Released | [1.6.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/9) |
 | 1.5.0 | 27 | Released | [1.5.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/1) |
@@ -16,6 +17,66 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 | 1.0.2 | 14 | Released | [1.0.2](https://github.com/bookorbit/bookorbit-ios-support/milestone/4) |
 | 1.0.1 | 13 | Released | [1.0.1](https://github.com/bookorbit/bookorbit-ios-support/milestone/3) |
 | 1.0 | 9 | Released | [1.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/2) |
+
+## 1.8.0
+
+Released on the App Store on November 7, 2026 as **1.8.0 (30)**.
+
+### New
+
+- Use BookOrbit in German, French, Spanish, Dutch, Italian, and Simplified Chinese. iOS picks the language from the device, or from Settings > BookOrbit > Language, and a Language row in Settings opens it.
+- Guided View reads comics panel by panel, right to left for manga.
+- Story Recap shows "Previously in" when a book opens after three days or more away, written on the device from only the pages before yours. Premium, on devices that support Apple Intelligence.
+- Constellations lists the people, places, and terms met so far, cut off at the page on screen so nothing ahead shows. Ask the Book answers who or what a selected name is from only the pages already read. Premium, on devices that support Apple Intelligence.
+- Find Your Page reads a page of a paper copy with the camera, or from a photo, and opens the ebook at that text.
+- The book scanner reads a photographed cover to open or request the book, and a photographed shelf to mark each spine as read, reading, in your library, or ready to request.
+- Your books and highlights appear in Spotlight and Siri, with shortcuts to open a book or show its highlights.
+- Year in Review tells the story of your reading year in six styles that can be shared as images. It appears in Activity from December 1 to January 31, and past years stay available.
+- Reading Insights is redrawn as a year orbit and a shelf, and each day opens as a ruler of its sessions.
+- Bedtime mode uses the Sleep Focus to darken the reader and start a sleep timer, ask "Still listening?" every 15 minutes, and fade out and leave a bookmark where you fell asleep. Premium.
+- Auto Page Turn and Auto-Scroll move through a book on their own.
+- Choose what the page header and footer show, with an optional progress bar along the footer.
+- Show the status bar while the reading controls are hidden.
+- Text sizes go up to 48.
+- Bluetooth page turners, arrow keys, and optionally the volume buttons turn pages.
+- Look words up in Wikipedia, Wiktionary, and StarDict dictionaries, and review looked-up words in Notebook under More, Vocabulary.
+- Contents shows how long each chapter takes, and the time left follows your own reading pace.
+- In-book search can match case, whole words, and accents.
+- Every jump from Contents, search, bookmarks, notebook entries, and the scrubber leaves a Return to the page you left.
+- Pages can be numbered by the print edition where the book includes them.
+- Paginated chapters clean up publisher styles, with options to ignore publisher margins and forced page breaks.
+- Book Covers settings gain Refresh Covers.
+
+### Fixes
+
+- Covers and details changed on the server refresh instead of showing the old ones for up to a day.
+- Read Along keeps playing across chapter boundaries instead of going silent while the clock runs.
+- Narration stays paused when headphones hand off to another device while it is loading.
+- The whole chapter and bookmark row is tappable in the audiobook player.
+- The iPad book page shows the book and audiobook covers together.
+- The Cover and Text switch appears in the iPad player and on the iPhone Duo's open display.
+- The iPhone Duo no longer freezes as it rotates or unfolds, and its outer display, Home, and player fit its fold and side strip.
+- A grouped series shows under its name and opens the series.
+- Closing quotes and other punctuation stay with their word at the page edge.
+- The translation panel stays on screen for text near the bottom of the page.
+- Switching to Scrolled keeps the page on screen.
+- Highlights no longer paint whole paragraph boxes, and books with malformed markup search and list their contents correctly.
+
+Year in Review, Find Your Page, cover and shelf scanning, and saving Constellations corrections require BookOrbit server 3.7.0 or later, which also writes achievement names and the monthly challenge in the app's language. Everything else works with older servers.
+
+### Support issues
+
+- [#69](https://github.com/bookorbit/bookorbit-ios-support/issues/69): Show the status bar while reading controls are hidden.
+- [#79](https://github.com/bookorbit/bookorbit-ios-support/issues/79): Translations.
+- [#80](https://github.com/bookorbit/bookorbit-ios-support/issues/80): Narration after a Bluetooth handoff.
+- [#83](https://github.com/bookorbit/bookorbit-ios-support/issues/83): Text view in the player on the iPhone Duo.
+- [#84](https://github.com/bookorbit/bookorbit-ios-support/issues/84): iPhone Duo freezing as it unfolds.
+- [#88](https://github.com/bookorbit/bookorbit-ios-support/issues/88): Book and audiobook covers on iPad.
+- [#94](https://github.com/bookorbit/bookorbit-ios-support/issues/94): Tapping chapter rows.
+- [#98](https://github.com/bookorbit/bookorbit-ios-support/issues/98): Refreshing changed covers.
+- [#99](https://github.com/bookorbit/bookorbit-ios-support/issues/99): Read Along silence at chapter boundaries.
+
+Main tracker: [#2016](https://github.com/bookorbit/bookorbit/issues/2016), [#1978](https://github.com/bookorbit/bookorbit/issues/1978), [#1962](https://github.com/bookorbit/bookorbit/issues/1962), [#1976](https://github.com/bookorbit/bookorbit/issues/1976).
 
 ## 1.7.0
 
