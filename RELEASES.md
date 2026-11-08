@@ -68,6 +68,7 @@ Year in Review, Find Your Page, cover and shelf scanning, and saving Constellati
 
 - [#41](https://github.com/bookorbit/bookorbit-ios-support/issues/41): Turn pages with the volume buttons.
 - [#57](https://github.com/bookorbit/bookorbit-ios-support/issues/57): Guided View for comics.
+- [#59](https://github.com/bookorbit/bookorbit-ios-support/issues/59): Page turning with a Bluetooth keyboard on iPhone.
 - [#69](https://github.com/bookorbit/bookorbit-ios-support/issues/69): Show the status bar while reading controls are hidden.
 - [#79](https://github.com/bookorbit/bookorbit-ios-support/issues/79): Translations.
 - [#80](https://github.com/bookorbit/bookorbit-ios-support/issues/80): Narration after a Bluetooth handoff.
