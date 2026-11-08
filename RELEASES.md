@@ -159,6 +159,7 @@ Read Along narration started on another device appears in CarPlay's Continue lis
 
 ### Support issues
 
+- [#16](https://github.com/bookorbit/bookorbit-ios-support/issues/16): Separate home and away server addresses.
 - [#21](https://github.com/bookorbit/bookorbit-ios-support/issues/21): Cloudflare Access and custom-header access gates.
 - [#60](https://github.com/bookorbit/bookorbit-ios-support/issues/60): Chapter list opens at the playing chapter.
 - [#61](https://github.com/bookorbit/bookorbit-ios-support/issues/61): Highlight menu after adjusting a selection.
