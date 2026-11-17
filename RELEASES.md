@@ -1,11 +1,13 @@
 # BookOrbit iOS release history
 
-The current App Store version is **1.8.0 (30)**, released on November 7, 2026. The next version has not been scheduled.
+The current App Store version is **1.9.0 (33)**. The next planned release is **1.10.0**, with build 35 on TestFlight.
 
 Historical notes were backfilled on October 9, 2026 from the original App Store listings. Original release dates are not recorded here because they could not be verified. GitHub backfill timestamps do not represent the original App Store release dates.
 
 | Version | Build | Status | Milestone |
 | --- | --- | --- | --- |
+| 1.10.0 | 35 | Planned | [1.10.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/14) |
+| 1.9.0 | 33 | Released | [1.9.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/12) |
 | 1.8.0 | 30 | Released | [1.8.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/11) |
 | 1.7.0 | 29 | Released | [1.7.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/10) |
 | 1.6.0 | 28 | Released | [1.6.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/9) |
@@ -17,6 +19,96 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 | 1.0.2 | 14 | Released | [1.0.2](https://github.com/bookorbit/bookorbit-ios-support/milestone/4) |
 | 1.0.1 | 13 | Released | [1.0.1](https://github.com/bookorbit/bookorbit-ios-support/milestone/3) |
 | 1.0 | 9 | Released | [1.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/2) |
+
+## 1.10.0
+
+Planned for the next App Store release. Build 35 is on TestFlight (`testflight/1.10.0-35`). The release date has not been set.
+
+### New
+
+- Story Guides: Constellations shows each character's story so far, with their family and ties, revealed only as far as you have read. Fix anything the guide gets wrong, for yourself or for everyone.
+- Ask the Book, Story Recap, and Constellations descriptions can come from your server's AI on devices without Apple Intelligence. Choose where answers come from in Settings.
+- Open Constellations from the book page, or from the audiobook player while a narrated EPUB plays.
+- Your server's AI can read cover and shelf photos the phone cannot. No photo leaves the phone until you turn it on.
+- A new Listening panel with Voice, Speed, Highlighting, Chapter, and Timer tabs.
+- Four narration highlight styles: Glide, Highlighter, Lamplight, and Ink Trail.
+- Double-tap a sentence to move Read Along there, or a paragraph to move Text to Speech.
+- PDFs and comics on iPhone get the ebook reader's controls and Aa panel.
+- Lock the reader in portrait or landscape.
+- See where each tap zone sits when you pick a page-turn layout.
+- Home has new styles for the book in progress, led by Orbit, and for your reading figures. Long-press a widget to switch.
+- Books without a cover get the same generated cover as on the web.
+- Sign in under four animated skies.
+- Upload into each library's own dock. Book Dock is now Library Dock.
+- Filter shelves by author gender and Story Guides.
+- Embed an audiobook's cover in its Read-Along EPUB from Edit Book.
+- The previous and next buttons on headphones, car stereos, and steering wheels now skip back and forward. Changing chapter stays available in Player Settings.
+
+### Fixes
+
+- The app no longer signs you out when a session refresh is interrupted.
+- Voice Boost no longer plays loud and crackly after a pause.
+- Removing a download with a swipe no longer closes Downloads.
+- The audiobook transcript stays visible in landscape.
+- German (Germany) Orbit voices are back.
+- The dictionary lookup sheet no longer opens blank.
+- Bluetooth keyboard page turning keeps working after a tap on the page.
+- Time left in chapter counts the right chapter.
+- Grouped series open from the iPad library.
+- Pages turn from the side strip on the iPhone Duo's outer display.
+- The Search field stays in view on iOS 27.
+- A long series keeps its loaded volumes after a quick action.
+- Shelf scans keep each book on one spine.
+
+Story Guides, your server's AI, library docks, the new shelf filters, and cover embedding need BookOrbit server 3.9.0 or later. Everything else works with older servers.
+
+### Support issues
+
+- [#70](https://github.com/bookorbit/bookorbit-ios-support/issues/70): In-app rotation lock.
+- [#90](https://github.com/bookorbit/bookorbit-ios-support/issues/90): Headphone previous and next buttons skip.
+- [#101](https://github.com/bookorbit/bookorbit-ios-support/issues/101): Placeholder covers for books without art.
+- [#106](https://github.com/bookorbit/bookorbit-ios-support/issues/106): Time left in chapter.
+- [#107](https://github.com/bookorbit/bookorbit-ios-support/issues/107): Page turns on the iPhone Duo's outer display.
+- [#110](https://github.com/bookorbit/bookorbit-ios-support/issues/110): Grouped series on iPad.
+- [#120](https://github.com/bookorbit/bookorbit-ios-support/issues/120): Keyboard page turning after a tap.
+- [#121](https://github.com/bookorbit/bookorbit-ios-support/issues/121): Jump narration to a tapped passage.
+- [#122](https://github.com/bookorbit/bookorbit-ios-support/issues/122): Blank dictionary lookup sheet.
+- [#125](https://github.com/bookorbit/bookorbit-ios-support/issues/125): German Orbit voices.
+- [#126](https://github.com/bookorbit/bookorbit-ios-support/issues/126): Audiobook transcript in landscape.
+- [#131](https://github.com/bookorbit/bookorbit-ios-support/issues/131): Swiping to remove a download.
+- [#132](https://github.com/bookorbit/bookorbit-ios-support/issues/132): Voice Boost after a pause.
+- [#133](https://github.com/bookorbit/bookorbit-ios-support/issues/133): Unexpected sign-outs.
+- [#134](https://github.com/bookorbit/bookorbit-ios-support/issues/134): CarPlay steering wheel skip.
+
+## 1.9.0
+
+Released on the App Store as **1.9.0 (33)**. The release date has not been verified.
+
+### New
+
+- Turn Bedtime mode on or off for the night right from the app. Its options now live in Bedtime Mode settings.
+- Redesigned reader controls, with a new header and footer and an Aa panel that keeps its size as you switch tabs and marks the settings you changed for a book.
+- Redesigned Downloads, with a Storage page that shows which books take the most space.
+- A new look for Achievements, with every medal on one dial and a record of what you have earned and what is coming next.
+- Redesigned Settings on iPhone and iPad.
+- Choose the gap between pages in two-page PDF and comic layouts on iPad.
+
+### Fixes
+
+- Opening an EPUB no longer crashes the app on iOS 26.6.
+- Bedtime mode no longer turns on or starts the sleep timer when your Bedtime Focus is off.
+- Highlights now appear in vertical-text books and on dark pages.
+- Selecting text no longer turns the page when page curl is on.
+- The app's name now shows as BookOrbit in every language.
+
+### Support issues
+
+- [#78](https://github.com/bookorbit/bookorbit-ios-support/issues/78): Gap between pages in two-page PDF and comic layouts on iPad.
+- [#82](https://github.com/bookorbit/bookorbit-ios-support/issues/82): Highlights in vertical-writing EPUBs.
+- [#100](https://github.com/bookorbit/bookorbit-ios-support/issues/100): EPUB crash after 1.8.0.
+- [#102](https://github.com/bookorbit/bookorbit-ios-support/issues/102): Sleep timer starting without the Bedtime Focus.
+- [#103](https://github.com/bookorbit/bookorbit-ios-support/issues/103): Bedtime mode staying on.
+- [#104](https://github.com/bookorbit/bookorbit-ios-support/issues/104): Bedtime mode not noticing the Focus is off.
 
 ## 1.8.0
 

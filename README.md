@@ -4,11 +4,11 @@ Report bugs, request features, and follow BookOrbit releases in the [issue track
 
 ## Current release
 
-[BookOrbit 1.8.0 (30)](https://github.com/bookorbit/bookorbit-ios-support/milestone/11) is available on the App Store as of November 7, 2026.
+[BookOrbit 1.9.0 (33)](https://github.com/bookorbit/bookorbit-ios-support/milestone/12) is available on the App Store.
 
-This release brings the app to German, French, Spanish, Dutch, Italian, and Simplified Chinese. It adds Guided View for comics, Story Recap, Constellations, Find Your Page, cover and shelf scanning, Spotlight and Siri search, Year in Review, a redrawn Reading Insights, Bedtime mode for audiobooks, and many more reader controls. It also fixes stale covers, Read Along going silent at chapter boundaries, and iPad and iPhone Duo layouts. Year in Review, Find Your Page, and cover and shelf scanning require BookOrbit server 3.7.0 or later.
+This release puts Bedtime mode under your control from the app and redesigns the reader controls, Downloads, Achievements, and Settings. It also fixes the EPUB crash on iOS 26.6 and Bedtime mode turning on by itself.
 
-See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version has not been scheduled.
+See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version is [1.10.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/14), with build 35 on TestFlight.
 
 ## Status labels
 
