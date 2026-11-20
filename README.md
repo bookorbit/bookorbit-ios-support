@@ -4,11 +4,11 @@ Report bugs, request features, and follow BookOrbit releases in the [issue track
 
 ## Current release
 
-[BookOrbit 1.9.0 (33)](https://github.com/bookorbit/bookorbit-ios-support/milestone/12) is available on the App Store.
+[BookOrbit 1.10.0 (35)](https://github.com/bookorbit/bookorbit-ios-support/milestone/14) is available on the App Store.
 
-This release puts Bedtime mode under your control from the app and redesigns the reader controls, Downloads, Achievements, and Settings. It also fixes the EPUB crash on iOS 26.6 and Bedtime mode turning on by itself.
+This release adds Story Guides, a new Listening panel, reader orientation lock, and new Home styles.
 
-See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version is [1.10.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/14), with build 35 on TestFlight.
+See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version is [1.11.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/15), with build 36 on TestFlight.
 
 ## Status labels
 

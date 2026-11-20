@@ -1,12 +1,13 @@
 # BookOrbit iOS release history
 
-The current App Store version is **1.9.0 (33)**. The next planned release is **1.10.0**, with build 35 on TestFlight.
+The current App Store version is **1.10.0 (35)**. The next planned release is **1.11.0**, with build 36 on TestFlight.
 
 Historical notes were backfilled on October 9, 2026 from the original App Store listings. Original release dates are not recorded here because they could not be verified. GitHub backfill timestamps do not represent the original App Store release dates.
 
 | Version | Build | Status | Milestone |
 | --- | --- | --- | --- |
-| 1.10.0 | 35 | Planned | [1.10.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/14) |
+| 1.11.0 | 36 | Planned | [1.11.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/15) |
+| 1.10.0 | 35 | Released | [1.10.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/14) |
 | 1.9.0 | 33 | Released | [1.9.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/12) |
 | 1.8.0 | 30 | Released | [1.8.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/11) |
 | 1.7.0 | 29 | Released | [1.7.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/10) |
@@ -20,9 +21,29 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 | 1.0.1 | 13 | Released | [1.0.1](https://github.com/bookorbit/bookorbit-ios-support/milestone/3) |
 | 1.0 | 9 | Released | [1.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/2) |
 
+## 1.11.0
+
+Planned for a future App Store release. Build 36 is on TestFlight for internal testers.
+
+### Improvements
+
+- The book page shows reading progress, bookmarks, and reading time in a more compact Your reading card. The status menu groups its choices by reading stage.
+- Audiobooks sync their position once a minute during steady playback to reduce battery use on mobile data. Pausing or seeking still syncs right away.
+
+### Fixes
+
+- Tapping a book on a Home Screen widget opens it at the saved position. The play button starts audiobook playback.
+- The Orbit Home style shows its sky and stars in Light Mode.
+- The app treats gateway errors as a server outage and waits for the server to return before retrying downloads.
+
+### Support issues
+
+- Widget playback behavior. [#135](https://github.com/bookorbit/bookorbit-ios-support/issues/135)
+- Orbit appearance in Light Mode. [#138](https://github.com/bookorbit/bookorbit-ios-support/issues/138)
+
 ## 1.10.0
 
-Planned for the next App Store release. Build 35 is on TestFlight (`testflight/1.10.0-35`). The release date has not been set.
+Released on the App Store as **1.10.0 (35)**.
 
 ### New
 
