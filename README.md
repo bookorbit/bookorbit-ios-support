@@ -4,11 +4,11 @@ Report bugs, request features, and follow BookOrbit releases in the [issue track
 
 ## Current release
 
-[BookOrbit 1.10.0 (35)](https://github.com/bookorbit/bookorbit-ios-support/milestone/14) is available on the App Store.
+[BookOrbit 1.11.0 (36)](https://github.com/bookorbit/bookorbit-ios-support/milestone/15) is available on the App Store.
 
-This release adds Story Guides, a new Listening panel, reader orientation lock, and new Home styles.
+This release shortens the Your reading card on the book page, sends audiobook position to the server once a minute to save battery, and fixes widget taps and the Orbit Home style in Light Mode.
 
-See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version is [1.11.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/15), with build 36 on TestFlight.
+See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version is [1.12.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/16).
 
 ## Status labels
 
