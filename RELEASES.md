@@ -1,12 +1,13 @@
 # BookOrbit iOS release history
 
-The current App Store version is **1.10.0 (35)**. The next planned release is **1.11.0**, with build 36 on TestFlight.
+The current App Store version is **1.11.0 (36)**. The next planned release is **1.12.0**.
 
 Historical notes were backfilled on October 9, 2026 from the original App Store listings. Original release dates are not recorded here because they could not be verified. GitHub backfill timestamps do not represent the original App Store release dates.
 
 | Version | Build | Status | Milestone |
 | --- | --- | --- | --- |
-| 1.11.0 | 36 | Planned | [1.11.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/15) |
+| 1.12.0 |  | Planned | [1.12.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/16) |
+| 1.11.0 | 36 | Released | [1.11.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/15) |
 | 1.10.0 | 35 | Released | [1.10.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/14) |
 | 1.9.0 | 33 | Released | [1.9.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/12) |
 | 1.8.0 | 30 | Released | [1.8.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/11) |
@@ -23,7 +24,7 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 
 ## 1.11.0
 
-Planned for a future App Store release. Build 36 is on TestFlight for internal testers.
+Released on the App Store as **1.11.0 (36)**.
 
 ### Improvements
 
@@ -40,6 +41,8 @@ Planned for a future App Store release. Build 36 is on TestFlight for internal t
 
 - Widget playback behavior. [#135](https://github.com/bookorbit/bookorbit-ios-support/issues/135)
 - Orbit appearance in Light Mode. [#138](https://github.com/bookorbit/bookorbit-ios-support/issues/138)
+
+Main tracker: [#2262](https://github.com/bookorbit/bookorbit/issues/2262).
 
 ## 1.10.0
 
