@@ -1,12 +1,12 @@
 # BookOrbit iOS release history
 
-The current App Store version is **1.11.0 (36)**. The next planned release is **1.12.0**.
+The current App Store version is **1.12.0 (37)**.
 
 Historical notes were backfilled on October 9, 2026 from the original App Store listings. Original release dates are not recorded here because they could not be verified. GitHub backfill timestamps do not represent the original App Store release dates.
 
 | Version | Build | Status | Milestone |
 | --- | --- | --- | --- |
-| 1.12.0 | 37 | Internal TestFlight | [1.12.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/17) |
+| 1.12.0 | 37 | Released | [1.12.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/17) |
 | 1.11.0 | 36 | Released | [1.11.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/15) |
 | 1.10.0 | 35 | Released | [1.10.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/14) |
 | 1.9.0 | 33 | Released | [1.9.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/12) |
@@ -24,7 +24,7 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 
 ## 1.12.0
 
-Build **37** is available in internal TestFlight.
+Released on the App Store as **1.12.0 (37)**.
 
 ### Library and books
 
