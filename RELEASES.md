@@ -29,7 +29,7 @@ Build **37** is available in internal TestFlight.
 ### Library and books
 
 - Browse genres and tags in Library and open their pages from book details or Search.
-- Linked editions share a library card, and the book page lets you switch editions. Genre and tag pages and linked editions require server support.
+- Linked editions share a library card, and the book page lets you switch editions.
 - Requests explain when an older edition needs approval, and Send Request stays in reach on iPad and the iPhone Duo’s inner display.
 
 ### Audiobooks and reading
@@ -47,6 +47,8 @@ Build **37** is available in internal TestFlight.
 - The iPad Library bar stays in place after reconnecting, and the empty-description card fits narrow layouts.
 - App Attest backs off when the device cannot sign, reducing repeated server errors.
 
+Linked editions, the explanation for a request held as an older edition, and the notice for a book's unsupported language need BookOrbit server 3.10.0 or later. Genre and tag pages need BookOrbit server 3.9.0 or later. Everything else works with older servers.
+
 ### Support issues
 
 - [#127](https://github.com/bookorbit/bookorbit-ios-support/issues/127) Sleep timer through a selected chapter.
@@ -57,6 +59,8 @@ Build **37** is available in internal TestFlight.
 - [#148](https://github.com/bookorbit/bookorbit-ios-support/issues/148) Send Request on the iPhone Duo.
 - [#150](https://github.com/bookorbit/bookorbit-ios-support/issues/150) Remember Read Along speed.
 - [#152](https://github.com/bookorbit/bookorbit-ios-support/issues/152) Book layout without a description.
+
+Main tracker: [#602](https://github.com/bookorbit/bookorbit/issues/602), [#2133](https://github.com/bookorbit/bookorbit/issues/2133), [#2142](https://github.com/bookorbit/bookorbit/issues/2142), [#2281](https://github.com/bookorbit/bookorbit/issues/2281), [#2301](https://github.com/bookorbit/bookorbit/issues/2301), [#2302](https://github.com/bookorbit/bookorbit/issues/2302), [#2309](https://github.com/bookorbit/bookorbit/issues/2309), [#2325](https://github.com/bookorbit/bookorbit/issues/2325), [#2326](https://github.com/bookorbit/bookorbit/issues/2326).
 
 ## 1.11.0
 
