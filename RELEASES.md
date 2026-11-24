@@ -6,7 +6,7 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 
 | Version | Build | Status | Milestone |
 | --- | --- | --- | --- |
-| 1.12.0 |  | Planned | [1.12.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/16) |
+| 1.12.0 | 37 | Internal TestFlight | [1.12.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/17) |
 | 1.11.0 | 36 | Released | [1.11.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/15) |
 | 1.10.0 | 35 | Released | [1.10.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/14) |
 | 1.9.0 | 33 | Released | [1.9.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/12) |
@@ -21,6 +21,42 @@ Historical notes were backfilled on October 9, 2026 from the original App Store 
 | 1.0.2 | 14 | Released | [1.0.2](https://github.com/bookorbit/bookorbit-ios-support/milestone/4) |
 | 1.0.1 | 13 | Released | [1.0.1](https://github.com/bookorbit/bookorbit-ios-support/milestone/3) |
 | 1.0 | 9 | Released | [1.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/2) |
+
+## 1.12.0
+
+Build **37** is available in internal TestFlight.
+
+### Library and books
+
+- Browse genres and tags in Library and open their pages from book details or Search.
+- Linked editions share a library card, and the book page lets you switch editions. Genre and tag pages and linked editions require server support.
+- Requests explain when an older edition needs approval, and Send Request stays in reach on iPad and the iPhone Duo’s inner display.
+
+### Audiobooks and reading
+
+- Queue audiobooks in Up Next or keep listening to the next book in a series when a book ends.
+- See time left at your playback speed and an estimated finish date from your listening pace. Player settings offer a whole-book progress bar, speeds up to 4×, and more skip intervals.
+- Set the sleep timer to a custom duration or the end of a chosen chapter, with options to extend it by shaking the phone and to rewind when the timer stops playback.
+- Read Along remembers each book’s speed and adds controls for the highlight colour, strength, and margin icon. The ebook reader keeps prose at the chosen text size across chapters when using My Settings.
+- Downloaded books pick up newer progress from other devices when the server is reachable.
+- Story Guides explain when a book’s language is unsupported, and on-device character descriptions can retry when they miss the character.
+
+### Other changes
+
+- Active Yearly subscribers can buy Lifetime or Lifetime Family. Yearly billing continues until the subscription is cancelled in Apple’s subscription settings.
+- The iPad Library bar stays in place after reconnecting, and the empty-description card fits narrow layouts.
+- App Attest backs off when the device cannot sign, reducing repeated server errors.
+
+### Support issues
+
+- [#127](https://github.com/bookorbit/bookorbit-ios-support/issues/127) Sleep timer through a selected chapter.
+- [#140](https://github.com/bookorbit/bookorbit-ios-support/issues/140) Read Along highlight controls.
+- [#141](https://github.com/bookorbit/bookorbit-ios-support/issues/141) Repeated server errors.
+- [#145](https://github.com/bookorbit/bookorbit-ios-support/issues/145) Audiobook time remaining at the current speed.
+- [#146](https://github.com/bookorbit/bookorbit-ios-support/issues/146) Lifetime purchase with an active subscription.
+- [#148](https://github.com/bookorbit/bookorbit-ios-support/issues/148) Send Request on the iPhone Duo.
+- [#150](https://github.com/bookorbit/bookorbit-ios-support/issues/150) Remember Read Along speed.
+- [#152](https://github.com/bookorbit/bookorbit-ios-support/issues/152) Book layout without a description.
 
 ## 1.11.0
 

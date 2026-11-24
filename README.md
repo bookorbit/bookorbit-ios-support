@@ -8,7 +8,7 @@ Report bugs, request features, and follow BookOrbit releases in the [issue track
 
 This release shortens the Your reading card on the book page, sends audiobook position to the server once a minute to save battery, and fixes widget taps and the Orbit Home style in Light Mode.
 
-See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version is [1.12.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/16).
+See [release notes and history](RELEASES.md) or [all release milestones](https://github.com/bookorbit/bookorbit-ios-support/milestones?state=all). The next version is [1.12.0](https://github.com/bookorbit/bookorbit-ios-support/milestone/17).
 
 ## Status labels
 
